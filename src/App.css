@@ -1,0 +1,221 @@
+
+.judul-homepage{
+  text-align: center;
+  padding-right : 100vh;
+  
+}
+
+.menu-link{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  background-color: #ffff;
+  margin: 0;
+  color: black;
+
+}
+
+.menu-link a{
+  color: black;
+  text-decoration: none;
+}
+
+.menu-link a:hover{
+  color: black;
+}
+
+.menu-link li{
+  padding: 25px;
+  text-align: center;
+ 
+}
+
+.dropdown-menu{
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  padding: 0px;
+}
+
+.dropdown-menu li{
+  padding: 15px;
+  text-align: center;
+}
+.menu-link li:hover .dropdown-menu{
+  display: block;
+  cursor: pointer;  
+}
+
+.dropdown-responsive{
+  display:none;
+}
+
+@media screen and (max-width: 500px){
+  .menu-link{
+      flex-direction: column;
+  }
+  .menu-link li:hover .dropdown-menu{
+      display: none;
+  }
+  .menu-link li:hover ~ .dropdown-responsive{
+      display: block;
+      text-align: right;
+      padding-right: 30%;
+  }
+}
+
+.Nilai{
+  text-align: center;
+  color: black;
+  display: inline-block;
+}
+
+
+.Nilai-pilar-gambar-lampu{
+  background-color: #e16f71;
+  float: left;
+  width: 25%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-left : 50px;
+  color: white;
+}
+
+.Nilai-pilar-gambar-bank{
+  background-color: #6ca171;
+  float: left;
+  width: 25%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-left :  150px;
+  margin-right : 50px;
+  color: white;
+}
+
+.Nilai-pilar-gambar-balance{
+  background-color: #5a9bc0;
+  float: left;
+  width: 25%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-left : 50px;
+  color: white;
+}
+
+.resize-Nilai-pilar-gambar-lampu{
+  width: 5%;
+}
+
+.resize-Nilai-pilar-gambar-bank{
+  width: 10%;
+}
+
+.resize-Nilai-pilar-gambar-balance{
+  width: 10%;
+}
+
+.ContactUs{
+  padding-top: 22%;
+  margin-right: 55vh;
+  margin-left: 55vh;
+}
+
+.from-section{
+  padding-top: 12px;
+}
+
+.email-section{
+  padding-top: 12px;
+}
+
+.name{
+  margin-right: 460px;
+}
+
+.email{
+  margin-right: 460px;
+}
+
+.message{
+  margin-right: 440px;
+}
+
+.input-name{
+  width: 500px;
+  height: 25px;
+}
+
+.email-name{
+  width: 500px;
+  height: 25px;
+}
+
+.message-name{
+  width: 500px;
+  height: 100px;
+}
+
+.submit-btn{
+  padding-top: 10px;
+}
+
+.submit-btn-size{
+  width: 500px;
+  height: 30px;
+  background-color: #5a9bc0;
+  border-color: #5a9bc0;
+  border-bottom :#5a9bc0;
+  border-right: #5a9bc0;
+  color: white;
+}
+
+.margin-btm{
+  padding-bottom: 20px;
+}
+/* 
+.sliding-images {
+  position: relative;
+  width: 100%;
+}
+
+.slide-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide.active {
+  flex: 0 0 100%;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 120%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.prev-button {
+  left: 10px;
+  top: 120%;
+}
+
+.next-button {
+  right: 10px;
+} */
